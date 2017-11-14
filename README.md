@@ -31,7 +31,7 @@ Make this as efficient as possible, code comments appreciated.
 
 ### Answer : I have written an ansible script instead. Hope that doesn't matter. Though I know python & bash too, ansible for now seems the right tool for this task.
 ### Host file : https://gist.github.com/ajksharma/fab151c7c561d87ddf4faa11052f34c5#file-hosts
-### Ansible command : $ ansible all -a "/sbin/reboot" -f 10     (this rusn the command on all servers in a group, in this case, "all" from the hosts file parallely in 10 forks)
+### Ansible command : $ ansible all -a "/sbin/reboot" -f 10     (this runs the command on all servers in a group, in this case, "all" from the hosts file parallely in 10 forks)
 
 
 ### Assignment 3 :
@@ -43,3 +43,5 @@ Apache Web Server, Apache Tomcat application server with Active MQ and Oracle an
 Propose a solution to migrate this application stack to cloud of your choice (AWS/OpenStack/Azure).
 
 Mention all the provider services you would use and how you would maintain HA and Load Balancing (consider app to be stateless). Mention rationale for each decision.
+
+### https://gist.github.com/ajksharma/d0a2efbafb2a396746653cfcc8456f12#file-aws_solution
